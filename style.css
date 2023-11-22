@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d4d4d4;
+    color: #fff
+
+}
+
+header {
+    background-color: #d4d4d4;
+    color: #222;
+    padding: 10px 15px;
+    align-items: center;
+    position: fixed; /* Fixe le header en haut de la page */
+    width: 100%; /* Prend toute la largeur de la fenêtre */
+    top: 0; /* Position en haut de la page */
+    z-index: 1000; /* Assure que le header est au-dessus de tout le reste */
+
+    }
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: Montserrat , sans-serif;
+    font-weight: 700;
+}
+
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 45px;
+
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#about-me{
+  text-align: center;
+}
+
+.decorative-line {
+  border: 0;
+  height: 2px;
+  width: 50px;
+  background-color: black;
+  margin: auto; /* Ajustez la marge selon vos préférences */
+
+}
+.Apropos{
+margin-top: 150px;
+
+}
+
+
+#Presentation-ligne{
+text-align: center;
+color : grey;
+
+}
+.typewrite  {
+  text-decoration: none;
+    color: #000;
+    pointer-events: none;
+    overflow: hidden; /* Pour masquer le débordement du texte */
+    border-right: 0.08em solid #000;
+    animation: blink-caret 0.80s step-end infinite, typing 2s steps(24) forwards; /* Animation de clignotement et de frappe */
+
+    /* Autres styles si nécessaires */
+    margin-right: 5px; /* Ajustez la valeur selon vos préférences */
+}
+
+.typewrite:hover {
+    cursor: default; /* Désactive le curseur au survol, indiquant qu'il n'est pas cliquable */
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent; /* Couleur de la barre au début et à la fin */
+    }
+    50% {
+        border-color: #000; /* Couleur de la barre au milieu (clignotement) */
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0; /* Largeur de la barre au début de la frappe */
+    }
+    to {
+        width: 100%; /* Largeur de la barre à la fin de la frappe */
+    }
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hey-title{
+  margin-left:20px;
+  color: #000;
+  margin-top: 80px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.skills-title{
+  margin-top: 80px;
+  font-size: 30px;
+  color : #000;
+  margin-right: 400px;
+
+
+}
+
+.sur-moi{
+  color: black;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.presentation-and-skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+
+
+.presentation{
+  width: 1200px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; /* Vous pouvez ajuster la taille selon vos préférences */
+  line-height: 1.6; /* Espacement des lignes pour une meilleure lisibilité */
+  margin-bottom: 20px; /* Ajoute une marge en bas pour l'espacement entre paragraphes */
+  padding-right: 40px;
+  margin-left: 10px;
+
+
+}
+.badges-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.badge {
+  background-color: #696969;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 16px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
